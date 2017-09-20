@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.list-of-scoots {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
